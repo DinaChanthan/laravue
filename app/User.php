@@ -39,6 +39,6 @@ class User extends Authenticatable
 
 
     public function question() {
-        return $this->hasMnay('Question::class');
+        return $this->hasMnay(Question::class);
     }
 }
